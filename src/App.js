@@ -1,4 +1,26 @@
 import React from 'react';
+import ToDolist from "./components/TodoList"
+import ToDoForm from "./components/TodoForm"
+import "./components/Todo.css"
+
+const ToDos = [
+{
+  todo: "Study the TK",
+  id: 12,
+  completed: false
+},
+{
+  todo: "Go eat pizza",
+  id: 12,
+  completed: false
+},
+{
+  todo: "Attend Guided Lecture",
+  id: 12,
+  completed: false
+},
+
+]
 
 class App extends React.Component {
   // you will need a place to store your state in this component.
