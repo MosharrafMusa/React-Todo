@@ -1,31 +1,38 @@
-import React from 'react';
-import ToDolist from "./components/TodoList"
-import ToDoForm from "./components/TodoForm"
-import "./components/Todo.css"
+import React from "react";
+
+import ToDoList from "./components/TodoList";
+
+import ToDoForm from "./components/TodoForm";
+
+import "./components/Todo.css";
 
 const ToDos = [
-{
-  todo: "Study the TK",
-  id: 12,
-  completed: false
-},
-{
-  todo: "Go eat pizza",
-  id: 12,
-  completed: false
-},
-{
-  todo: "Attend Guided Lecture",
-  id: 12,
-  completed: false
-},
+  {
+    todo: "feed pet cats",
 
-]
+    id: 12,
+
+    completed: false
+  },
+
+  {
+    todo: "study the TK",
+
+    id: 13,
+
+    completed: false
+  },
+
+  {
+    todo: "go eat a pizza",
+
+    id: 14,
+
+    completed: false
+  }
+];
 
 class App extends React.Component {
-  // you will need a place to store your state in this component.
-  // design `App` to be the parent component of your application.
-  // this component is going to take care of state, and any change handlers you need to work with your state
   constructor() {
     super();
 
@@ -77,7 +84,9 @@ class App extends React.Component {
       })
     });
   };
-  
+
+  //still need to add item and clear purchased and work on render
+
   render() {
     return (
       <div>
@@ -96,5 +105,7 @@ class App extends React.Component {
     );
   }
 }
+
+//still need to add components and state ^
 
 export default App;
