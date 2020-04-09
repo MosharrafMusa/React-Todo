@@ -1,0 +1,19 @@
+body {
+    margin: 0, auto;
+    text-align: center;
+  }
+
+
+
+
+  .item.completed {
+    color: red;
+    text-decoration: line-through;
+  }
+
+  
+#root {
+    max-width: 350px;
+    background-color: antiquewhite;
+  }
+  
